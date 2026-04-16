@@ -1,0 +1,23 @@
+# --- CORE ---
+smolagents==1.24.0
+litellm==1.82.3
+python-dotenv==1.2.2
+rich==14.3.3
+
+# --- RAG Y DATOS ---
+qdrant-client
+flashrank==0.2.10
+numpy==2.4.2
+sentence-transformers
+langchain-community
+tantivy
+
+# --- UTILIDADES ---
+requests==2.32.5
+pip-tools==7.5.3
+duckduckgo-search>=6.0.0
+ddgs
+pandas
+mdutils
+pyfiglet>=1.0.0
+prompt_toolkit

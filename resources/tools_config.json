@@ -1,0 +1,64 @@
+{
+  "tools": {
+    "RepoMapTool": {
+      "name": "Mapeador de Repositorio",
+      "description": "Analiza y mapea la estructura del proyecto",
+      "enabled": true,
+      "file": "repo_map_tool.py"
+    },
+    "FileWriteTool": {
+      "name": "Escritor de Archivos",
+      "description": "Crea y modifica archivos del proyecto",
+      "enabled": true,
+      "file": "file_write_tool.py"
+    },
+    "FileReadTool": {
+      "name": "Lector de Archivos",
+      "description": "Lee archivos del proyecto",
+      "enabled": true,
+      "file": "file_write_tool.py"
+    },
+    "TerminalTool": {
+      "name": "Terminal",
+      "description": "Ejecuta comandos del sistema",
+      "enabled": true,
+      "file": "terminal_tool.py"
+    },
+    "MarkdownReportTool": {
+      "name": "Markdown Report",
+      "description": "Crea reportes en formato markdown",
+      "enabled": true,
+      "file": "markdown_report_tool.py"
+    },
+    "SearchTool": {
+      "name": "Search",
+      "description": "Ejecuta busquedas en internet",
+      "enabled": true,
+      "file": "search_tool.py"
+    },
+    "ProjectStatusTool": {
+      "name": "Project Status",
+      "description": "Gestiona el estado y progreso del proyecto",
+      "enabled": true,
+      "file": "project_status_tool.py"
+    },
+    "SearchSkillDBTool": {
+      "name": "Skill DB Search",
+      "description": "Busca información específica en la base de datos de skills sobre implementaciones y patrones",
+      "enabled": true,
+      "file": "search_skill_db_tool.py"
+    },
+    "CodeFormatterTool": {
+      "name": "Code Formatter",
+      "description": "Formatea código con sintaxis resaltada y colores para mejor visualización",
+      "enabled": true,
+      "file": "code_formatter_tool.py"
+    },
+    "HumanValidationTool": {
+      "name": "Human Validation",
+      "description": "Solicita validación humana para decisiones críticas",
+      "enabled": true,
+      "file": "human_validation_tool.py"
+    }
+  }
+}

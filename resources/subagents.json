@@ -1,0 +1,44 @@
+{
+  "subagentes": {
+    "agent_planner": {
+      "name": "Planeador",
+      "description": "Descompone tareas en pasos lógicos y crea planes estructurados",
+      "enabled": true,
+      "model": null,
+      "prompt": "planner.md",
+      "max_steps": 5,
+      "verbosity_level": -1,
+      "add_base_tools": false
+    },
+    "agent_executor": {
+      "name": "Ejecutor",
+      "description": "Ejecuta planes paso a paso usando herramientas disponibles",
+      "enabled": true,
+      "model": null,
+      "prompt": "executor.md",
+      "max_steps": 15,
+      "verbosity_level": -1,
+      "add_base_tools": false
+    },
+    "agent_tester": {
+      "name": "Testeador",
+      "description": "Ejecuta pruebas y valida resultados después de la ejecución",
+      "enabled": true,
+      "model": null,
+      "prompt": "tester.md",
+      "max_steps": 10,
+      "verbosity_level": -1,
+      "add_base_tools": false
+    },
+    "agent_documenter": {
+      "name": "Documentador",
+      "description": "Genera documentación basada en el código modificado",
+      "enabled": true,
+      "model": null,
+      "prompt": "documenter.md",
+      "max_steps": 5,
+      "verbosity_level": -1,
+      "add_base_tools": false
+    }
+  }
+}

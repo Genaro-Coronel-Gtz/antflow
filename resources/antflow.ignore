@@ -1,0 +1,13 @@
+.git
+vendor/
+node_modules/
+storage/
+bootstrap/cache
+__pycache__/
+venv/
+build/
+build-env/
+dist/
+**/__pycache__/
+.antflow/
+.windsurf
