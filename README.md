@@ -1815,6 +1815,19 @@ manager.reset_db()
 * **Diseño:** Logotipo original de **AntFlow** diseñado para representar la eficiencia colectiva de los agentes locales.
 
 
+---
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son lo que hacen que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear! Cualquier contribución que hagas será **muy apreciada**.
+
+1. **Fork** el proyecto.
+2. Crea una **Feature Branch** (`git checkout -b feature/AmazingFeature`).
+3. Haz **Commit** de tus cambios (`git commit -m 'Add some AmazingFeature'`).
+4. Haz **Push** a la Branch (`git push origin feature/AmazingFeature`).
+5. Abre un **Pull Request**.
+
+Para cambios mayores, por favor abre primero un **Issue** para discutir lo que te gustaría cambiar.
 
 ---
 
