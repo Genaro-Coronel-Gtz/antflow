@@ -1836,5 +1836,5 @@ Este proyecto fue diseñado y desarrollado por:
 
 Puedes encontrarme en mis redes para hablar sobre arquitectura de agentes, IA local o desarrollo de software:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU_USUARIO_AQUI)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TU_USUARIO_AQUI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/genaro-coronel-066b17122/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Genaro-Coronel-Gtz)
