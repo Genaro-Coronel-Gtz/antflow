@@ -16,7 +16,7 @@
       "name": "Lector de Archivos",
       "description": "Lee archivos del proyecto",
       "enabled": true,
-      "file": "file_write_tool.py"
+      "file": "file_read_tool.py"
     },
     "TerminalTool": {
       "name": "Terminal",

@@ -13,8 +13,9 @@ Debes delegar cada fase a la herramienta de agente correspondiente:
 ## 2. PIPELINE OBLIGATORIO DE TRABAJO
 Debes seguir esta secuencia exacta. No puedes saltar fases:
 1. **DISEÑO:** Llama al `planeador`. Verifica que `plan.md` exista antes de seguir.
-2. **INFRAESTRUCTURA:** Llama a `devops` para crear el `docker-compose.yml`.
-3. **IMPLEMENTACIÓN:** Llama al `ejecutor`. Debe leer el plan y usar el entorno de devops.
+2. **INFRAESTRUCTURA:** Llama a `devops` para crear el `docker-compose.yml`. No pases a la fase de implementación hasta que `devops` esté seguro de que el ambiente Docker funciona correctamente.
+   - **Bucle de Corrección:** Si `devops` encuentra fallos en el ambiente o en `docker-compose.yml`, repite con `devops` hasta que el entorno sea estable y sin errores.
+3. **IMPLEMENTACIÓN:** Llama al `ejecutor`. Debe leer el plan y usar el entorno de `devops`.
 4. **QA (CALIDAD):** Llama al `tester`.
    - **Bucle de Corrección:** Si el veredicto es `FAILED`, delega de nuevo al `ejecutor` con el reporte de errores. Repite hasta obtener `VERDICT: PASSED`.
 5. **CIERRE:** Llama al `documentador` para finalizar el proyecto.
